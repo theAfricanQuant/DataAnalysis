@@ -17,7 +17,7 @@ knn = KNeighborsClassifier(n_neighbors=1)
 knn.fit(X_train, y_train)
 
 print(f"Test set score: {knn.score(X_test, y_test):.2f}")
-print("First five rows of data:\n{}".format(iris_dataset['data'][:5]))
+print(f"First five rows of data:\n{iris_dataset['data'][:5]}")
 
 
 
